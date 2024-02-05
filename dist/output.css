@@ -3060,12 +3060,6 @@ video {
   background-color: rgb(158 158 158 / var(--tw-bg-opacity));
 }
 
-.after\:bg-black::after {
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
 .after\:duration-300::after {
   content: var(--tw-content);
   transition-duration: 300ms;
@@ -3111,10 +3105,6 @@ video {
 
 .hover\:to-90\%:hover {
   --tw-gradient-to-position: 90%;
-}
-
-.hover\:font-\[700\]:hover {
-  font-weight: 700;
 }
 
 .hover\:font-bold:hover {
@@ -3224,6 +3214,14 @@ video {
 
   .max-md\:gap-\[45px\] {
     gap: 45px;
+  }
+
+  .max-md\:gap-\[40px\] {
+    gap: 40px;
+  }
+
+  .max-md\:overflow-x-scroll {
+    overflow-x: scroll;
   }
 
   .max-md\:bg-white {

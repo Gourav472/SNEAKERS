@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menulist.show {
+    right: 0;
+}
+
+.menuicon.show .bar:nth-child(1) {
+    transform: translateY(5px) rotate(45deg);
+}
+
+.menuicon.show .bar:nth-child(2) {
+    display: none;
+}
+
+.menuicon.show .bar:nth-child(3) {
+    transform: translateY(-5px) rotate(-45deg);
+}
+
+
+.shoescard{
+    border: 1px solid #E4E4E4;
+    border-radius: 17px;
+}
+.card1{
+    border: 1px solid #E4E4E4;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 0px #00000033;
+
+}
+
+.tabstyle{
+    color: #FF0000;
+    border-bottom: 3px solid #FF0000;
+    margin-bottom: -2px;
+}

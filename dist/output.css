@@ -967,6 +967,10 @@ video {
   max-width: 624px;
 }
 
+.max-w-\[715px\] {
+  max-width: 715px;
+}
+
 .flex-shrink {
   flex-shrink: 1;
 }
@@ -1507,10 +1511,6 @@ video {
 
 .gap-\[11px\] {
   gap: 11px;
-}
-
-.gap-\[12px\] {
-  gap: 12px;
 }
 
 .gap-\[15px\] {
@@ -2333,6 +2333,10 @@ video {
   padding-top: 79px;
 }
 
+.pt-\[81px\] {
+  padding-top: 81px;
+}
+
 .pt-\[87px\] {
   padding-top: 87px;
 }
@@ -2343,6 +2347,14 @@ video {
 
 .pt-\[92px\] {
   padding-top: 92px;
+}
+
+.pb-\[\] {
+  padding-bottom: ;
+}
+
+.pb-\[39px\] {
+  padding-bottom: 39px;
 }
 
 .text-left {
@@ -2431,6 +2443,10 @@ video {
 
 .text-\[24px\] {
   font-size: 24px;
+}
+
+.text-\[25px\] {
+  font-size: 25px;
 }
 
 .text-\[30px\] {
@@ -3144,12 +3160,20 @@ video {
 }
 
 @media not all and (min-width: 1536px) {
+  .max-2xl\:justify-center {
+    justify-content: center;
+  }
+
   .max-2xl\:text-center {
     text-align: center;
   }
 }
 
 @media not all and (min-width: 1280px) {
+  .max-xl\:justify-center {
+    justify-content: center;
+  }
+
   .max-xl\:gap-\[50px\] {
     gap: 50px;
   }
@@ -3160,10 +3184,6 @@ video {
 }
 
 @media not all and (min-width: 1024px) {
-  .max-lg\:gap-\[\] {
-    gap: ;
-  }
-
   .max-lg\:gap-\[20px\] {
     gap: 20px;
   }
@@ -3226,6 +3246,10 @@ video {
   .max-md\:text-\[27px\] {
     font-size: 27px;
   }
+
+  .max-md\:text-\[\] {
+    color: ;
+  }
 }
 
 @media not all and (min-width: 640px) {
@@ -3241,20 +3265,8 @@ video {
     gap: 20px;
   }
 
-  .max-sm\:gap-\[12px\] {
-    gap: 12px;
-  }
-
-  .max-sm\:gap-\[2px\] {
-    gap: 2px;
-  }
-
   .max-sm\:gap-\[30px\] {
     gap: 30px;
-  }
-
-  .max-sm\:gap-\[px\] {
-    gap: px;
   }
 
   .max-sm\:text-wrap {
@@ -3285,10 +3297,6 @@ video {
 
   .sm\:gap-10 {
     gap: 2.5rem;
-  }
-
-  .sm\:gap-\[\] {
-    gap: ;
   }
 
   .sm\:gap-\[50px\] {
@@ -3341,6 +3349,10 @@ video {
 }
 
 @media (min-width: 1280px) {
+  .xl\:justify-center {
+    justify-content: center;
+  }
+
   .xl\:gap-\[12px\] {
     gap: 12px;
   }
@@ -3349,10 +3361,6 @@ video {
 @media (min-width: 1536px) {
   .\32xl\:mt-\[37px\] {
     margin-top: 37px;
-  }
-
-  .\32xl\:gap-\[12px\] {
-    gap: 12px;
   }
 }
 
